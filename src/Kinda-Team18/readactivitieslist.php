@@ -24,7 +24,7 @@ if($result->num_rows > 0){
         while($row = $result -> fetch_assoc()) {
             echo "
             <tr>
-            <td><a href='updatesingle.php?id=$row[id]'>$row[id] </a>     </td>
+            <td><a href='updateactivitieslist.php?id=$row[id]'>$row[id] </a>     </td>
             <td> $row[aname]     </td>
             <td> $row[description]     </td>
             <td> $row[location]      </td>
