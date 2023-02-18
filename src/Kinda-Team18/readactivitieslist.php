@@ -48,5 +48,5 @@ $conn-> close();
 
 
 
-<?php include "../layout/footer.php" ?>
+<?php include "footer1.php" ?>
         
