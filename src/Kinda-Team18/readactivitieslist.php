@@ -4,7 +4,7 @@ $title = "Read data from database";
 
 include "headerr.php";
 include 'db.php';
-$sql ="select * from activitieslisttable";
+$sql ="select * from activitieslist";
 $result = $conn->query($sql);
 
 
